@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Restaurant Services & Logos</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Restaurant Services & Logos</h1>
+      <nav>
+        <ul>
+          <li><a href="#logos">Logos</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="logos">
+      <div class="container">
+        <h2>Restaurant Logos</h2>
+        <p class="p1">Our restaurant logos are perfect for your restaurant business!</p>
+        <ul class="logo-grid">
+          <li>
+            <img src="restaurant-logo-1.png" alt="Restaurant Logo 1">
+            <h3>Restaurant Logo 1</h3>
+            <p>Price: $100</p>
+            <a href="https://www.fiverr.com/share/N6eK1a"><button class="btn" onclick="addToCart(1)">Go</button></a>
+          </li>
+          <li>
+            <img src="restaurant-logo-2.png" alt="Restaurant Logo 2">
+            <h3>Restaurant Logo 2</h3>
+            <p>Price: $100</p>
+            <button class="btn" onclick="addToCart(2)">Go</button>
+          </li>
+          <li>
+            <img src="restaurant-logo-3.png" alt="Restaurant Logo 3">
+            <h3>Restaurant Logo 3</h3>
+            <p>Price: $100</p>
+            <button class="btn" onclick="addToCart(3)">Go</button>
+          </li>
+        </ul>
+              <ul class="logo-grid">
+          <li>
+            <img src="restaurant-logo-4.png" alt="Restaurant Logo 1">
+            <h3>Pizza Logo</h3>
+            <p>Price: $20</p>
+            <button class="btn" onclick="addToCart(1)">Go</button>
+          </li>
+          <li>
+            <img src="restaurant-logo-5.png" alt="Restaurant Logo 2">
+            <h3>Restaurant Logo 2</h3>
+            <p>Price: $100</p>
+            <button class="btn" onclick="addToCart(2)">Go</button>
+          </li>
+          <li>
+            <img src="restaurant-logo-6.png" alt="Restaurant Logo 3">
+            <h3>Restaurant Logo 3</h3>
+            <p>Price: $100</p>
+            <button class="btn" onclick="addToCart(3)">Go</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+   
+<section id="contact-us">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p class="p1">Get in touch with us today!</p>
+    <form action="submit-form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button class="btn" type="submit">Submit</button>
+</form>
+</div>
+</section>
+</main>
+<footer>
+  <p>&copy; Restaurant Services & Logos 2023</p>
+</footer>
+</body>
+</html>
